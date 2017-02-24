@@ -1,0 +1,17 @@
+var Car = function() {
+  this.wheels= 4;
+  this.engine = 2;
+  this.seats = 5;
+  };
+
+var civic = new Car();
+
+console.log(civic);
+
+civic.turbo = "Twin Turbo";
+civic.eficiency = "average";
+civic.price = "300k";
+console.log(civic);
+
+var suzuki = new Car();
+console.log(suzuki);
